@@ -11,7 +11,12 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Notes"),
+        title: const Text("Notes",
+          style: TextStyle(
+            fontSize: 28,
+            fontWeight: FontWeight.w800
+          ),
+        ),
         centerTitle: true,
       ),
       body: Padding(

@@ -28,7 +28,12 @@ class _AddScreenState extends State<AddScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Notes"),
+        title: const Text("Notes",
+          style: TextStyle(
+              fontSize: 28,
+              fontWeight: FontWeight.w800
+          ),
+        ),
       ),
 
       body: SingleChildScrollView(
